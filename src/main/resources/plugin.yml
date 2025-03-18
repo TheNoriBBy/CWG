@@ -1,0 +1,15 @@
+name: CWG
+version: '1.0-SNAPSHOT'
+main: me.aviso.cwg.CWG
+api-version: '1.19'
+load: STARTUP
+authors: [ Ace_Aviso ]
+
+depend: [WorldGuard, WorldEdit]
+
+commands:
+  cwg:
+    permission: cwg.admin
+
+permissions:
+  cwg:
